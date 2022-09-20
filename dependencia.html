@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dependencia en existencia</title>
+    <link rel="stylesheet" href="depen_stilos.css">
+</head>
+<body>
+    <div id="contenedor">
+        <header>
+         <img src="logo/demon-slayer-sanemi-shinazugawa-and-sword-cursor-pack.png" id="logo">
+     </header>
+        <div class="container_menu">
+         <div class="menu">
+             <nav>
+               <ul>
+                   <li><a href="inicio.html" class="selector"></a></li>
+                   <li><a href="lengua.html">lengua</a>
+                    <ul>
+                     <li><a href="#">XXX</a></li>
+                     <li><a href="#">XXX</a></li>
+                     <li><a href="#">XXX</a></li>
+                     <li><a href="#">XXX</a></li>
+                    </ul>
+                   </li>
+                   <li><a href="BaseDeDatos.html">base de datos</a>
+                   <ul>
+                    <li><a href="MER.html">Participación de Existencia</a></li>
+                    <li><a href="dependencia.html">Dependencia de Existencia</a></li>
+                    <li><a href="regla_iden.html">Reglas de Integridad</a></li>
+                    <li><a href="algeb_relacio.html">Algebra Relacional</a></li>
+                    <li><a href="Parcial_MER.html">Parcial MER</a></li>
+                    <li><a href="Parcial_ER.html">Parcial ER</a></li>
+                   </ul>
+                   </li>
+                   <li><a href="#">Sistemas Operativos</a>
+                    <ul>
+                     <li><a href="#">Tipos de Sistemas Operativos</a></li>
+                     <li><a href="#">Kernel y sus Tipos</a></li>
+                     <li><a href="#">Shell</a></li>
+                    </ul>
+                   </li>
+                   <li><a href="#">Programación Web Front</a>
+                    <ul>
+                     <li><a href="#">Estructura HTML</a></li>
+                     <li><a href="#">Etiquetas HTML</a></li>
+                     <li><a href="#">Uso De las Etiquetas</a></li>
+                     <li><a href="#">Atributos de las Etiquetas</a></li>
+                    </ul>
+                   </li>
+                   <li><a href="#">Calculo III</a>
+                     <ul>
+                         <li><a href="#">Rango y Dominio</a></li>
+                         <li><a href="#">Limites</a></li>
+                         <li><a href="#">Derivadas Parciales</a></li>
+                         <li><a href="#">Derivadas de Orden Superior</a></li>
+                     </ul>
+                   </li>
+                   <li><a href="#">Física</a>
+                    <ul>
+                     <li><a href="#">Movimiento Rectilinio Uniforme</a></li>
+                     <li><a href="#">MRU Acelerado</a></li>
+                     <li><a href="#">Caida Libre</a></li>
+                     <li><a href="#">Vectores y Angulos</a></li>
+                    </ul>
+                   </li>
+               </ul>
+             </nav>
+         </div>
+           </div>
+        <main>
+            <h1 id="LC_img">Dependencia en existencia</h1>
+            <p>
+                Se produce cuando una entidad débil necesita de la presencia de una fuerte para existir. Si desaparece la existencia de la entidad fuerte, la de la débil carece de sentido. Se representa con una barra atravesando el rombo y la letra E en su interior. Son relaciones poco frecuentes.
+                <br>
+                <br>
+                En la figura se muestra el caso de que un empleado puede tener ninguno, uno o varios hijos, por lo que los datos de los hijos deben sacarse en una entidad aparte, aunque siguen siendo datos propios de un empleado. Si se eliminase un registro de un empleado, no tendría sentido seguir manteniendo en la base datos la información sobre sus hijos.
+                 
+                <br>
+                <img src="imagenes_base/depen.png" alt="">
+            </p>
+            
+        </main>
+        
+        <footer>
+         &copy; Weider , Hammer
+        </footer>
+     </div> 
+</body>
+</html>
